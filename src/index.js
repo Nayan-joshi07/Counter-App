@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import AppTwo from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppTwo />
   </React.StrictMode>,
   document.getElementById('root')
+
 );
